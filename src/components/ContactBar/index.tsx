@@ -7,9 +7,21 @@ export function ContactBar() {
   return (
     <AppBar position='static' sx={{ backgroundColor: '#000034' }}>
       <Container maxWidth='xl'>
-        <Toolbar disableGutters>
-          <Box sx={{ flexGrow: 0 }}>
-            <div>(11) 95610-2777</div>
+        <Toolbar
+          disableGutters
+          sx={{
+            flexGrow: 0,
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <Box
+            sx={{
+              flexGrow: 0,
+            }}
+          >
+            <div>Tel: (11) 95610-2777</div>
           </Box>
         </Toolbar>
       </Container>
