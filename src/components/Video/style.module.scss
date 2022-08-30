@@ -4,7 +4,7 @@
   margin-top: 2px;
   .overlay {
     position: absolute;
-    margin-top: 72 + px;
+    margin-top: 77 + px;
     top: 0;
     left: 0;
     width: 100%;
@@ -38,18 +38,18 @@
 
 @media (max-width: 900px) {
   .overlay {
-    margin-top: 66px;
+    margin-top: 66px !important;
   }
   .content {
-    margin-top: 66px;
+    margin-top: 66px !important;
   }
 }
 
 @media (max-width: 600px) {
   .overlay {
-    margin-top: 59px;
+    margin-top: 59px !important;
   }
   .content {
-    margin-top: 59px;
+    margin-top: 59px !important;
   }
 }

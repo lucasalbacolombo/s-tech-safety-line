@@ -95,7 +95,13 @@ export function Navbar() {
           >
             <img src={Logo} alt='logo' className={style.logo1} />
             <Button
-              sx={{ my: 2, color: 'black', display: 'block', height: '38px' }}
+              sx={{
+                my: 2,
+                color: 'black',
+                display: 'block',
+                textTransform: 'none',
+                fontSize: '17px',
+              }}
               aria-controls={open ? 'basic-menu' : undefined}
               aria-haspopup='true'
               aria-expanded={open ? 'true' : undefined}
@@ -120,13 +126,25 @@ export function Navbar() {
 
             <Button
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: 'black', display: 'block' }}
+              sx={{
+                my: 2,
+                color: 'black',
+                display: 'block',
+                textTransform: 'none',
+                fontSize: '17px',
+              }}
             >
               Contato
             </Button>
             <Button
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: 'black', display: 'block' }}
+              sx={{
+                my: 2,
+                color: 'black',
+                display: 'block',
+                textTransform: 'none',
+                fontSize: '17px',
+              }}
             >
               Sobre Nós
             </Button>
