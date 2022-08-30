@@ -3,6 +3,7 @@ import { Navbar } from '../../components/Navbar';
 import { Video } from '../../components/Video';
 import { FirstSection } from '../../components/FirstSection/index';
 import { SecondSection } from '../../components/SecondSection/index';
+import { Footer } from '../../components/Footer';
 
 export function Home() {
   return (
@@ -11,6 +12,7 @@ export function Home() {
       <Video />
       <FirstSection />
       <SecondSection />
+      <Footer />
     </Paper>
   );
 }

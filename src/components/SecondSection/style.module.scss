@@ -1,26 +1,23 @@
 .secondBlock {
   height: 100vh;
   width: 100%;
-  background-color: rgb(227, 231, 240);
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  background-color: rgb(224, 226, 250);
   .textDiv {
-    height: 100vh;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 40px;
+    height: auto;
+    width: 46%;
+    display: inline-block;
     p {
       text-align: justify;
     }
   }
   .image {
-    object-fit: cover;
-    width: 30%;
-    height: auto;
-    border-radius: 40%;
+    display: inline-block;
+    max-width: 40%;
+    max-height: 80vh;
+    border-radius: 10px;
   }
 }
