@@ -1,14 +1,16 @@
 import { Paper } from '@mui/material';
 import { Navbar } from '../../components/Navbar';
 import { Video } from '../../components/Video';
-import { FirstBlock } from '../../components/FirstBlock';
+import { FirstSection } from '../../components/FirstSection/index';
+import { SecondSection } from '../../components/SecondSection/index';
 
 export function Home() {
   return (
     <Paper>
       <Navbar />
       <Video />
-      <FirstBlock />
+      <FirstSection />
+      <SecondSection />
     </Paper>
   );
 }

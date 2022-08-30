@@ -7,8 +7,8 @@ export function Video() {
       <div className={style.overlay}></div>
       <video src={video} autoPlay loop muted />
       <div className={style.content}>
-        <h1>Título vai aqui</h1>
-        <p>Texto vai aqui</p>
+        <h1>S-Tech Safety Line</h1>
+        <h2>Prevenir acidentes é caminhar rumo ao futuro</h2>
       </div>
     </div>
   );

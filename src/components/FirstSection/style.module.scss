@@ -1,0 +1,22 @@
+.firstBlock {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  .textDiv {
+    height: auto;
+    width: 46%;
+    display: inline-block;
+    p {
+      text-align: justify;
+    }
+  }
+  .image {
+    display: inline-block;
+    max-width: 40%;
+    max-height: 80vh;
+    border-radius: 10px;
+  }
+}
