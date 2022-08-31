@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -8,7 +9,9 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
+import Divider from '@mui/material/Divider';
 import MenuItem from '@mui/material/MenuItem';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Logo from '../../assets/images/logo.png';
 import style from './style.module.scss';
 
@@ -18,12 +21,11 @@ export function Navbar() {
   );
 
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+
   const open = Boolean(anchorEl);
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    if (anchorEl !== event.currentTarget) {
-      setAnchorEl(event.currentTarget);
-    }
+    setAnchorEl(event.currentTarget);
   };
 
   const handleClose = () => {
@@ -84,7 +86,9 @@ export function Navbar() {
               </MenuItem>
             </Menu>
           </Box>
-          <img src={Logo} alt='logo' className={style.logo2} />
+          <Link to={'/'}>
+            <img src={Logo} alt='logo' className={style.logo2} />
+          </Link>
 
           <Box
             sx={{
@@ -93,20 +97,23 @@ export function Navbar() {
               alignItems: 'center',
             }}
           >
-            <img src={Logo} alt='logo' className={style.logo1} />
+            <Link to={'/'}>
+              <img src={Logo} alt='logo' className={style.logo1} />
+            </Link>
+
             <Button
-              sx={{
-                my: 2,
-                color: 'black',
-                display: 'block',
-                textTransform: 'none',
-                fontSize: '17px',
-              }}
+              id='basic-button'
               aria-controls={open ? 'basic-menu' : undefined}
               aria-haspopup='true'
               aria-expanded={open ? 'true' : undefined}
               onClick={handleClick}
-              onMouseOver={handleClick}
+              endIcon={<KeyboardArrowDownIcon />}
+              sx={{
+                my: 2,
+                color: 'rgb(80, 80, 80)',
+                textTransform: 'none',
+                fontSize: '17px',
+              }}
             >
               Produtos
             </Button>
@@ -115,39 +122,114 @@ export function Navbar() {
               anchorEl={anchorEl}
               open={open}
               onClose={handleClose}
-              MenuListProps={{ onMouseLeave: handleClose }}
+              MenuListProps={{
+                'aria-labelledby': 'basic-button',
+              }}
             >
-              <MenuItem onClick={handleClose}>Proteção Visual</MenuItem>
-              <MenuItem onClick={handleClose}>Proteção Auditiva</MenuItem>
-              <MenuItem onClick={handleClose}>Proteção Para as Mãos</MenuItem>
-              <MenuItem onClick={handleClose}>Proteção Respiratória</MenuItem>
-              <MenuItem onClick={handleClose}>Impermeáveis</MenuItem>
+              <Link
+                to={'/produtos'}
+                style={{ textDecoration: 'none', color: 'white' }}
+              >
+                <MenuItem
+                  onClick={handleClose}
+                  sx={{ color: 'rgb(80, 80, 80)' }}
+                >
+                  Todos os Produtos
+                </MenuItem>
+              </Link>
+              <Divider sx={{ my: 0.5 }} />
+              <Link
+                to={'/produtos/protecao-visual'}
+                style={{ textDecoration: 'none', color: 'white' }}
+              >
+                <MenuItem
+                  onClick={handleClose}
+                  sx={{ color: 'rgb(90, 90, 90)' }}
+                >
+                  Proteção Visual
+                </MenuItem>
+              </Link>
+              <Link
+                to={'/produtos/protecao-auditiva'}
+                style={{ textDecoration: 'none', color: 'white' }}
+              >
+                <MenuItem
+                  onClick={handleClose}
+                  sx={{ color: 'rgb(90, 90, 90)' }}
+                >
+                  Proteção Auditiva
+                </MenuItem>
+              </Link>
+              <Link
+                to={'/produtos/protecao-maos'}
+                style={{ textDecoration: 'none', color: 'white' }}
+              >
+                <MenuItem
+                  onClick={handleClose}
+                  sx={{ color: 'rgb(90, 90, 90)' }}
+                >
+                  Proteção Para as Mãos
+                </MenuItem>
+              </Link>
+
+              <Link
+                to={'/produtos/protecao-respiratoria'}
+                style={{ textDecoration: 'none', color: 'white' }}
+              >
+                <MenuItem
+                  onClick={handleClose}
+                  sx={{ color: 'rgb(90, 90, 100)' }}
+                >
+                  Proteção Respiratória
+                </MenuItem>
+              </Link>
+              <Link
+                to={'/produtos/impermeaveis'}
+                style={{ textDecoration: 'none', color: 'white' }}
+              >
+                <MenuItem
+                  onClick={handleClose}
+                  sx={{ color: 'rgb(90, 90, 90)' }}
+                >
+                  Impermeáveis
+                </MenuItem>
+              </Link>
             </Menu>
 
-            <Button
-              onClick={handleCloseNavMenu}
-              sx={{
-                my: 2,
-                color: 'black',
-                display: 'block',
-                textTransform: 'none',
-                fontSize: '17px',
-              }}
+            <Link
+              to={'/contato'}
+              style={{ textDecoration: 'none', color: 'white' }}
             >
-              Contato
-            </Button>
-            <Button
-              onClick={handleCloseNavMenu}
-              sx={{
-                my: 2,
-                color: 'black',
-                display: 'block',
-                textTransform: 'none',
-                fontSize: '17px',
-              }}
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: 'rgb(80, 80, 80)',
+                  display: 'block',
+                  textTransform: 'none',
+                  fontSize: '17px',
+                }}
+              >
+                Contato
+              </Button>
+            </Link>
+            <Link
+              to={'/sobre-nos'}
+              style={{ textDecoration: 'none', color: 'white' }}
             >
-              Sobre Nós
-            </Button>
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: 'rgb(80, 80, 80)',
+                  display: 'block',
+                  textTransform: 'none',
+                  fontSize: '17px',
+                }}
+              >
+                Sobre Nós
+              </Button>
+            </Link>
           </Box>
         </Toolbar>
       </Container>
