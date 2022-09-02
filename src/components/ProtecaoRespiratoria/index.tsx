@@ -1,9 +1,6 @@
-import { Link } from 'react-router-dom';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Grid } from '@mui/material';
 import Respirador from '../../assets/images/respirador.jpg';
@@ -21,21 +18,12 @@ export function ProtecaoRespiratoria() {
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='div'>
-              Respirador PFF2
+              Respirador PFF2 com Válvula
             </Typography>
             <Typography variant='body2' color='text.secondary'>
-              <p>Com ou sem válvula</p>
               <p>CA válido até 2024</p>
             </Typography>
           </CardContent>
-          <CardActions>
-            <Link
-              to={'/protecao-respiratoria'}
-              style={{ textDecoration: 'none', color: 'white' }}
-            >
-              <Button size='small'>Saiba Mais</Button>
-            </Link>
-          </CardActions>
         </Card>
       </Grid>
     </>

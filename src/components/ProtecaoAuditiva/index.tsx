@@ -29,14 +29,6 @@ export function ProtecaoAuditiva() {
               <p>CA válido até 2024</p>
             </Typography>
           </CardContent>
-          <CardActions>
-            <Link
-              to={'/produtos/protecao-auditiva'}
-              style={{ textDecoration: 'none', color: 'white' }}
-            >
-              <Button size='small'>Saiba Mais</Button>
-            </Link>
-          </CardActions>
         </Card>
       </Grid>
 
@@ -56,14 +48,6 @@ export function ProtecaoAuditiva() {
               <p>CA válido até 2024</p>
             </Typography>
           </CardContent>
-          <CardActions>
-            <Link
-              to={'/produtos/protecao-auditiva'}
-              style={{ textDecoration: 'none', color: 'white' }}
-            >
-              <Button size='small'>Saiba Mais</Button>
-            </Link>
-          </CardActions>
         </Card>
       </Grid>
 
@@ -83,14 +67,6 @@ export function ProtecaoAuditiva() {
               <p>CA válido até 2024</p>
             </Typography>
           </CardContent>
-          <CardActions>
-            <Link
-              to={'/produtos/protecao-auditiva'}
-              style={{ textDecoration: 'none', color: 'white' }}
-            >
-              <Button size='small'>Saiba Mais</Button>
-            </Link>
-          </CardActions>
         </Card>
       </Grid>
     </>
