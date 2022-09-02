@@ -6,7 +6,7 @@ export function SecondSection() {
   return (
     <div className={style.secondBlock}>
       <div className={style.textDiv}>
-        <h1>Contato</h1>
+        <h2>Contato</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem
           aut beatae enim exercitationem. Corrupti blanditiis vero unde!

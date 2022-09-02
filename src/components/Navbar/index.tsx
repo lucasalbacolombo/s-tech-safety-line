@@ -75,15 +75,30 @@ export function Navbar() {
                 color: 'black',
               }}
             >
-              <MenuItem onClick={handleCloseNavMenu} sx={{ color: 'black' }}>
-                <Typography textAlign='center'>PRODUTOS</Typography>
-              </MenuItem>
-              <MenuItem onClick={handleCloseNavMenu} sx={{ color: 'black' }}>
-                <Typography textAlign='center'>CONTATO</Typography>
-              </MenuItem>
-              <MenuItem onClick={handleCloseNavMenu} sx={{ color: 'black' }}>
-                <Typography textAlign='center'>SOBRE NÓS</Typography>
-              </MenuItem>
+              <Link
+                to={'/produtos'}
+                style={{ textDecoration: 'none', color: 'white' }}
+              >
+                <MenuItem onClick={handleCloseNavMenu} sx={{ color: 'black' }}>
+                  <Typography textAlign='center'>PRODUTOS</Typography>
+                </MenuItem>
+              </Link>
+              <Link
+                to={'/contato'}
+                style={{ textDecoration: 'none', color: 'white' }}
+              >
+                <MenuItem onClick={handleCloseNavMenu} sx={{ color: 'black' }}>
+                  <Typography textAlign='center'>CONTATO</Typography>
+                </MenuItem>
+              </Link>
+              <Link
+                to={'/sobre-nos'}
+                style={{ textDecoration: 'none', color: 'white' }}
+              >
+                <MenuItem onClick={handleCloseNavMenu} sx={{ color: 'black' }}>
+                  <Typography textAlign='center'>SOBRE NÓS</Typography>
+                </MenuItem>
+              </Link>
             </Menu>
           </Box>
           <Link to={'/'}>
