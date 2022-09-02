@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import style from './style.module.scss';
 import image2 from '../../assets/images/second-section.jpg';
 import Button from '@mui/material/Button';
@@ -14,7 +15,12 @@ export function SecondSection() {
           consequuntur quam voluptatem dolorem totam.
         </p>
         <div>
-          <Button variant='contained'>Contato</Button>
+          <Link
+            to={'/contato'}
+            style={{ textDecoration: 'none', color: 'white' }}
+          >
+            <Button variant='contained'>Contato</Button>
+          </Link>
         </div>
       </div>
       <img src={image2} alt='worker' className={style.image} />

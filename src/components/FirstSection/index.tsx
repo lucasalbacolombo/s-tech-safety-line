@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import style from './style.module.scss';
 import image1 from '../../assets/images/first-section1.jpg';
 import Button from '@mui/material/Button';
@@ -14,7 +15,12 @@ export function FirstSection() {
           consequuntur quam voluptatem dolorem totam.
         </p>
         <div>
-          <Button variant='contained'>Produtos</Button>
+          <Link
+            to={'/produtos'}
+            style={{ textDecoration: 'none', color: 'white' }}
+          >
+            <Button variant='contained'>Produtos</Button>
+          </Link>
         </div>
       </div>
       <img src={image1} alt='worker' className={style.image} />
