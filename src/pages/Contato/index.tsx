@@ -4,6 +4,7 @@ import ContactUs from '../../assets/images/contact-us.jpg';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { Footer } from '../../components/Footer';
 
 export function Contato() {
   return (
@@ -14,7 +15,7 @@ export function Contato() {
         <img src={ContactUs} alt='contato' className={style.image} />
       </div>
       <div className={style.contact}>
-        <div className={style.phone}>
+        <div className={style.contactBox}>
           <div>
             <PhoneIcon sx={{ fontSize: '50px' }} />
             <WhatsAppIcon sx={{ fontSize: '50px', ml: '30px' }} />
@@ -25,7 +26,7 @@ export function Contato() {
           </p>
           <p>(11) 95610-2777</p>
         </div>
-        <div className={style.phone}>
+        <div className={style.contactBox}>
           <EmailIcon sx={{ fontSize: '50px' }} />
           <p>Entre em contato por e-mail</p>
           <p>
@@ -33,6 +34,7 @@ export function Contato() {
           </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

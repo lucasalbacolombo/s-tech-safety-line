@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
   background-color: rgb(238, 238, 238);
   height: 390px;
   width: 100%;
@@ -13,6 +12,8 @@
   }
   .image {
     max-width: 40%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
   }
 }
 
@@ -22,17 +23,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  margin-top: 350px;
-  .phone {
+  margin: 25px 0 25px 0;
+  .contactBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px;
     border: 1px solid rgb(192, 192, 192);
-    width: 35%;
-    height: 100%;
+    width: 400px;
+    height: 350px;
     background-color: rgb(255, 255, 255);
     p {
       font-size: 20px;
