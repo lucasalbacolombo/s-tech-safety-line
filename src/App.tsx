@@ -7,7 +7,7 @@ import { ProtecaoVisual } from './pages/ProtecaoVisual';
 import { ProtecaoAuditiva } from './pages/ProtecaoAuditiva';
 import { ProtecaoMaos } from './pages/ProtecaoMaos';
 import { ProtecaoRespiratoria } from './pages/ProtecaoRespiratoria';
-import { Impermeaveis } from './pages/Impermeaveis';
+import { ProtecaoImpermeaveis } from './pages/ProtecaoImpermeaveis';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         path='/produtos/protecao-respiratoria'
         element={<ProtecaoRespiratoria />}
       />
-      <Route path='/produtos/impermeaveis' element={<Impermeaveis />} />
+      <Route path='/produtos/impermeaveis' element={<ProtecaoImpermeaveis />} />
       <Route path='/contato' element={<Contato />} />
       <Route path='/sobre-nos' element={<SobreNos />} />
     </Routes>

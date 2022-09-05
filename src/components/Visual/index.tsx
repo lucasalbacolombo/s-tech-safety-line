@@ -10,7 +10,7 @@ import OculosSobrepor from '../../assets/images/sobrepor.jpg';
 import SobreporFume from '../../assets/images/sobrepor-fume.png';
 import LeopardoFume from '../../assets/images/leopardo-cinza.jpg';
 
-export function ProtecaoVisual() {
+export function Visual() {
   return (
     <>
       <Grid item xs={11} sm={6} md={3}>

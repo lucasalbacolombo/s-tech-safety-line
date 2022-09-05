@@ -6,7 +6,7 @@ import { Grid } from '@mui/material';
 import Respirador from '../../assets/images/respirador.jpg';
 import RespiradorSemValvula from '../../assets/images/respirador-sem-valvula.jpg';
 
-export function ProtecaoRespiratoria() {
+export function Respiratoria() {
   return (
     <>
       <Grid item xs={11} sm={6} md={3}>

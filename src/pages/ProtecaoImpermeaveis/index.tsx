@@ -3,9 +3,9 @@ import { Footer } from '../../components/Footer';
 import Box from '@mui/material/Box';
 import { Grid } from '@mui/material';
 import Paper from '@mui/material/Paper';
-import { Maos } from '../../components/Maos';
+import { Impermeaveis } from '../../components/Impermeaveis';
 
-export function ProtecaoMaos() {
+export function ProtecaoImpermeaveis() {
   return (
     <>
       <Navbar />
@@ -19,9 +19,9 @@ export function ProtecaoMaos() {
         }}
       >
         <Paper sx={{ mt: 1, backgroundColor: 'rgb(247, 247, 247)' }}>
-          <h2 style={{ marginLeft: '25px' }}>Proteção Para as Mãos</h2>
+          <h2 style={{ marginLeft: '25px' }}>Impermeáveis</h2>
           <Grid container spacing={2} m={1} mb={10}>
-            <Maos />
+            <Impermeaveis />
           </Grid>
         </Paper>
       </Box>

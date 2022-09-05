@@ -3,28 +3,26 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Grid } from '@mui/material';
-import LuvaMalha from '../../assets/images/luva-mesclada.jpg';
-import LuvaRaspa from '../../assets/images/luva-raspa.png';
-import LuvaLatex from '../../assets/images/luva-latex.png';
-import LuvaVaqueta from '../../assets/images/luva.jpg';
+import PlugueSilicone from '../../assets/images/plug.png';
+import PlugueCopolimero from '../../assets/images/plug-copolimero.jpg';
+import Abafador from '../../assets/images/abafador.jpg';
 
-export function ProtecaoMaos() {
+export function Auditiva() {
   return (
     <>
       <Grid item xs={11} sm={6} md={3}>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component='img'
-            height='300'
-            image={LuvaMalha}
-            alt='luvas de malha'
+            height='350'
+            image={PlugueSilicone}
+            alt='plug silicone'
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='div'>
-              Luvas de Malha Tricotadas
+              Plugue Auricular Silicone
             </Typography>
             <Typography variant='body2' color='text.secondary'>
-              <p>Com ou sem pigmento</p>
               <p>CA válido até 2024</p>
             </Typography>
           </CardContent>
@@ -35,35 +33,15 @@ export function ProtecaoMaos() {
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component='img'
-            height='300'
-            image={LuvaRaspa}
-            alt='luvas raspa'
+            height='350'
+            image={PlugueCopolimero}
+            alt='plug copolimero'
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='div'>
-              Luvas de Raspa P/7 - P/15 - P/20
+              Plugue Auricular Copolímero
             </Typography>
             <Typography variant='body2' color='text.secondary'>
-              <p>CA válido até 2024</p>
-            </Typography>
-          </CardContent>
-        </Card>
-      </Grid>
-
-      <Grid item xs={11} sm={6} md={4}>
-        <Card sx={{ maxWidth: 345 }}>
-          <CardMedia
-            component='img'
-            height='300'
-            image={LuvaLatex}
-            alt='luvas latex'
-          />
-          <CardContent>
-            <Typography gutterBottom variant='h5' component='div'>
-              Luvas de Látex Forradas
-            </Typography>
-            <Typography variant='body2' color='text.secondary'>
-              <p>Tamanhos P, M, G, GG</p>
               <p>CA válido até 2024</p>
             </Typography>
           </CardContent>
@@ -74,13 +52,13 @@ export function ProtecaoMaos() {
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component='img'
-            height='300'
-            image={LuvaVaqueta}
-            alt='luva vaqueta'
+            height='350'
+            image={Abafador}
+            alt='abafador tipo concha'
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='div'>
-              Luvas de Vaqueta Mista Tipo Petroleira
+              Abafador Tipo Concha
             </Typography>
             <Typography variant='body2' color='text.secondary'>
               <p>CA válido até 2024</p>
