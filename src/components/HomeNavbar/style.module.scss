@@ -1,0 +1,27 @@
+.navbarTransparent {
+  background-color: transparent !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.navbarSolid {
+  background-color: white !important;
+  color: rgb(97, 97, 97) !important;
+}
+
+.logo1 {
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+
+.logo2 {
+  height: 50px;
+  border-radius: 6px;
+}
+
+@media (min-width: 900px) {
+  .logo2 {
+    display: none;
+  }
+}

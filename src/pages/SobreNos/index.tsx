@@ -1,5 +1,5 @@
 import style from './style.module.scss';
-import { Navbar } from '../../components/Navbar';
+import { HomeNavbar } from '../../components/HomeNavbar';
 import Image from '../../assets/images/about-us-image.jpeg';
 import { Footer } from '../../components/Footer';
 import Button from '@mui/material/Button';
@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 export function SobreNos() {
   return (
     <>
-      <Navbar />
+      <HomeNavbar />
       <div className={style.main} style={{ backgroundImage: `url(${Image})` }}>
         <h2 className={style.text}>Sobre Nós</h2>
       </div>
