@@ -13,7 +13,7 @@ import LeopardoFume from '../../assets/images/leopardo-cinza.jpg';
 export function Visual() {
   return (
     <>
-      <Grid item xs={11} sm={6} md={3}>
+      <Grid item xs={11} sm={6} md={3.1}>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component='img'
@@ -32,7 +32,7 @@ export function Visual() {
         </Card>
       </Grid>
 
-      <Grid item xs={11} sm={6} md={3}>
+      <Grid item xs={11} sm={6} md={3.1}>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component='img'
@@ -51,7 +51,7 @@ export function Visual() {
         </Card>
       </Grid>
 
-      <Grid item xs={11} sm={6} md={3}>
+      <Grid item xs={11} sm={6} md={3.1}>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component='img'
@@ -70,7 +70,7 @@ export function Visual() {
         </Card>
       </Grid>
 
-      <Grid item xs={11} sm={6} md={3}>
+      <Grid item xs={11} sm={6} md={3.1}>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component='img'
@@ -89,7 +89,7 @@ export function Visual() {
         </Card>
       </Grid>
 
-      <Grid item xs={11} sm={6} md={3}>
+      <Grid item xs={11} sm={6} md={3.1}>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component='img'
@@ -108,7 +108,7 @@ export function Visual() {
         </Card>
       </Grid>
 
-      <Grid item xs={11} sm={6} md={3}>
+      <Grid item xs={11} sm={6} md={3.1}>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component='img'
