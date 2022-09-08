@@ -21,10 +21,9 @@ export function Maos() {
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='div'>
-              Luvas de Malha Tricotadas
+              Luvas de Malha Tricotadas 4 Fios Mescladas
             </Typography>
             <Typography variant='body2' color='text.secondary'>
-              <p>Com ou sem pigmento</p>
               <p>CA válido até 2024</p>
             </Typography>
           </CardContent>
@@ -80,7 +79,7 @@ export function Maos() {
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='div'>
-              Luvas de Vaqueta Mista Tipo Petroleira
+              Luvas de Malha Tricotadas 4 Fios Brancas
             </Typography>
             <Typography variant='body2' color='text.secondary'>
               <p>CA válido até 2024</p>

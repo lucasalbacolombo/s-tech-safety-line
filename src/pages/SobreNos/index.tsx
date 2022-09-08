@@ -14,12 +14,25 @@ export function SobreNos() {
       </div>
       <div className={style.information1}>
         <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam nisi
-          error ea repellendus! Eius modi, facilis deserunt eum doloremque porro
-          quas perspiciatis et molestiae sapiente voluptates id unde numquam.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam nisi
-          error ea repellendus! Eius modi, facilis deserunt eum doloremque porro
-          quas perspiciatis et molestiae sapiente voluptates id unde numquam.
+          <p>
+            <strong>A S-Tech Safety Line</strong> acredita que prevenir
+            acidentes é caminhar rumo ao futuro, assim fomentamos uma cultura de
+            inovação, flexibilidade e excelência. Oferecemos uma diversificada
+            linha de produtos, construídos com materiais de alta qualidade para
+            garantir maior proteção, conforto e estilo.
+          </p>
+          <p>
+            <strong>Nossa visão</strong> é nos tornarmos a marca mais sólida e
+            confiável de EPI do Brasil, assim trabalhamos diariamente para
+            oferecer produtos e serviços de alta qualidade, atendendo as
+            demandas de nossos clientes com excelência.
+          </p>
+          <p>
+            <strong>Temos a missão </strong>de continuar o nosso compromisso com
+            a segurança dos trabalhadores. Acreditamos que as pessoas são as
+            verdadeiras responsáveis por formar uma organização, por isso
+            mantê-las seguras é caminhar rumo ao futuro.
+          </p>
         </article>
       </div>
       <div className={style.buttons}>

@@ -9,10 +9,9 @@ export function SecondSection() {
       <div className={style.textDiv}>
         <h2>Contato</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem
-          aut beatae enim exercitationem. Corrupti blanditiis vero unde!
-          Laudantium officia ratione officiis, sapiente necessitatibus eligendi
-          consequuntur quam voluptatem dolorem totam.
+          Acreditamos que as pessoas são as verdadeiras responsáveis por formar
+          uma organização, por isso mantê-las seguras é caminhar rumo ao futuro.
+          Entre em contato conosco para saber mais!
         </p>
         <div>
           <Link

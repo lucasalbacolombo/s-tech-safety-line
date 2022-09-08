@@ -9,10 +9,11 @@ export function FirstSection() {
       <div className={style.textDiv}>
         <h1>Equipamentos de Proteção Individual</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem
-          aut beatae enim exercitationem. Corrupti blanditiis vero unde!
-          Laudantium officia ratione officiis, sapiente necessitatibus eligendi
-          consequuntur quam voluptatem dolorem totam.
+          Oferecemos uma diversificada linha de produtos nos setores de proteção
+          visual, proteção auditiva, proteção para as mãos, proteção
+          respiratória e impermeáveis. Todos os nossos produtos possuem
+          Certificado de Aprovação (CA) vigente, construídos com materiais de
+          alta qualidade para garantir maior proteção, conforto e estilo.
         </p>
         <div>
           <Link

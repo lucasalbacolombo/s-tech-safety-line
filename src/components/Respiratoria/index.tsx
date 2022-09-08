@@ -10,7 +10,7 @@ export function Respiratoria() {
   return (
     <>
       <Grid item xs={11} sm={6} md={3}>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345, maxHeight: '420px' }}>
           <CardMedia
             component='img'
             height='300'
