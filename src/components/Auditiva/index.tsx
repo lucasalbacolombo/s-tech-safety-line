@@ -3,8 +3,8 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Grid } from '@mui/material';
-import PlugueSilicone from '../../assets/images/plug.png';
-import PlugueCopolimero from '../../assets/images/plug-copolimero.jpg';
+import PlugueCopolimero from '../../assets/images/plug.png';
+import PlugueSilicone from '../../assets/images/plug-silicone.jpeg';
 import Abafador from '../../assets/images/abafador.jpg';
 
 export function Auditiva() {
