@@ -1,3 +1,7 @@
+.heightDiv {
+  height: 100vh !important;
+}
+
 .main {
   display: flex;
   justify-content: space-between;
@@ -18,7 +22,7 @@
 }
 
 .contact {
-  height: 360px;
+  height: 70vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -42,5 +46,31 @@
     a {
       color: rgb(62, 57, 131);
     }
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    height: 300px;
+  }
+  .image {
+    display: none;
+  }
+  .title {
+    font-size: 2.2em !important;
+  }
+  .contact {
+    height: 60vh;
+    flex-direction: column;
+    p {
+      font-size: 1.1em !important;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .contactBox {
+    height: 500px;
+    width: 340px !important;
   }
 }

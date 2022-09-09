@@ -10,31 +10,33 @@ export function Contato() {
   return (
     <>
       <Navbar />
-      <div className={style.main}>
-        <h2>Entre em contato conosco</h2>
-        <img src={ContactUs} alt='contato' className={style.image} />
-      </div>
-      <div className={style.contact}>
-        <div className={style.contactBox}>
-          <div>
-            <PhoneIcon sx={{ fontSize: '50px' }} />
-            <WhatsAppIcon sx={{ fontSize: '50px', ml: '30px' }} />
+      <div className={style.heightDiv}>
+        <div className={style.main}>
+          <h2 className={style.title}>Entre em contato conosco</h2>
+          <img src={ContactUs} alt='contato' className={style.image} />
+        </div>
+        <div className={style.contact}>
+          <div className={style.contactBox}>
+            <div>
+              <PhoneIcon sx={{ fontSize: '50px' }} />
+              <WhatsAppIcon sx={{ fontSize: '50px', ml: '30px' }} />
+            </div>
+            <p>
+              Entre em contato com nosso departamento de vendas pelo telefone ou
+              whatsapp.
+            </p>
+            <p>(11) 95610-2777</p>
           </div>
-          <p>
-            Entre em contato com nosso departamento de vendas pelo telefone ou
-            whatsapp.
-          </p>
-          <p>(11) 95610-2777</p>
+          <div className={style.contactBox}>
+            <EmailIcon sx={{ fontSize: '50px' }} />
+            <p>Entre em contato por e-mail</p>
+            <p>
+              <a href='mailto:fabioepis@hotmai.com'>fabioepis@hotmail.com</a>
+            </p>
+          </div>
         </div>
-        <div className={style.contactBox}>
-          <EmailIcon sx={{ fontSize: '50px' }} />
-          <p>Entre em contato por e-mail</p>
-          <p>
-            <a href='mailto:fabioepis@hotmai.com'>fabioepis@hotmail.com</a>
-          </p>
-        </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }
