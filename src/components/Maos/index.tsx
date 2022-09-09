@@ -13,8 +13,8 @@ import ComPigmento from '../../assets/images/com-pigmento.jpeg';
 export function Maos() {
   return (
     <>
-      <Grid item xs={11} sm={6} md={5}>
-        <Card sx={{ maxWidth: 345 }}>
+      <Grid item xs={11} sm={6} md={4}>
+        <Card sx={{ maxWidth: 345, height: '500px' }}>
           <CardMedia
             component='img'
             height='300'
@@ -32,8 +32,8 @@ export function Maos() {
         </Card>
       </Grid>
 
-      <Grid item xs={11} sm={6} md={5}>
-        <Card sx={{ maxWidth: 345 }}>
+      <Grid item xs={11} sm={6} md={4}>
+        <Card sx={{ maxWidth: 345, height: '500px' }}>
           <CardMedia
             component='img'
             height='300'
@@ -51,8 +51,8 @@ export function Maos() {
         </Card>
       </Grid>
 
-      <Grid item xs={11} sm={6} md={5}>
-        <Card sx={{ maxWidth: 345 }}>
+      <Grid item xs={11} sm={6} md={4}>
+        <Card sx={{ maxWidth: 345, height: '500px' }}>
           <CardMedia
             component='img'
             height='300'
@@ -70,8 +70,8 @@ export function Maos() {
         </Card>
       </Grid>
 
-      <Grid item xs={11} sm={6} md={5}>
-        <Card sx={{ maxWidth: 345 }}>
+      <Grid item xs={11} sm={6} md={4}>
+        <Card sx={{ maxWidth: 345, height: '500px' }}>
           <CardMedia
             component='img'
             height='300'
@@ -89,8 +89,8 @@ export function Maos() {
         </Card>
       </Grid>
 
-      <Grid item xs={11} sm={6} md={5}>
-        <Card sx={{ maxWidth: 345 }}>
+      <Grid item xs={11} sm={6} md={4}>
+        <Card sx={{ maxWidth: 345, height: '500px' }}>
           <CardMedia
             component='img'
             height='300'
@@ -108,8 +108,8 @@ export function Maos() {
         </Card>
       </Grid>
 
-      <Grid item xs={11} sm={6} md={5}>
-        <Card sx={{ maxWidth: 345 }}>
+      <Grid item xs={11} sm={6} md={4}>
+        <Card sx={{ maxWidth: 345, height: '500px' }}>
           <CardMedia
             component='img'
             height='300'

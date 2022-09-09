@@ -11,7 +11,7 @@ export function Auditiva() {
   return (
     <>
       <Grid item xs={11} sm={6} md={3}>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345, height: '500px' }}>
           <CardMedia
             component='img'
             height='350'
@@ -30,7 +30,7 @@ export function Auditiva() {
       </Grid>
 
       <Grid item xs={11} sm={6} md={3}>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345, height: '500px' }}>
           <CardMedia
             component='img'
             height='350'
@@ -49,7 +49,7 @@ export function Auditiva() {
       </Grid>
 
       <Grid item xs={11} sm={6} md={3}>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345, height: '500px' }}>
           <CardMedia
             component='img'
             height='350'
