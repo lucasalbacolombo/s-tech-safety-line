@@ -20,3 +20,45 @@
     border-radius: 10px;
   }
 }
+
+@media (max-width: 900px) {
+  .firstBlock {
+    flex-direction: column;
+    .textDiv {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1 {
+        text-align: center;
+      }
+    }
+    .image {
+      max-width: 50%;
+    }
+    .btnDiv {
+      width: 85%;
+      text-align: center;
+    }
+    .btn {
+      width: 60%;
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .textDiv {
+    width: 90% !important;
+  }
+  .image {
+    max-width: 70% !important;
+  }
+  .btnDiv {
+    width: 100%;
+  }
+  .btn {
+    width: 90% !important;
+    margin-top: 30px;
+  }
+}

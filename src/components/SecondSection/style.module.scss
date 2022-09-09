@@ -24,3 +24,49 @@
     border-radius: 10px;
   }
 }
+
+@media (max-width: 900px) {
+  .secondBlock {
+    flex-direction: column;
+    max-height: 65vh;
+    .textDiv {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1 {
+        text-align: center;
+      }
+    }
+    .image {
+      max-width: 60%;
+    }
+    .btnDiv {
+      width: 90%;
+      text-align: center;
+    }
+    .btn {
+      width: 60%;
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .secondBlock {
+    flex-direction: column;
+    .textDiv {
+      width: 90% !important;
+    }
+    .image {
+      max-width: 70% !important;
+    }
+    .btnDiv {
+      width: 100%;
+    }
+    .btn {
+      width: 60% !important;
+      margin-top: 30px;
+    }
+  }
+}

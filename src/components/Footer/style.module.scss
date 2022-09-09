@@ -16,3 +16,15 @@
     border-radius: 7px;
   }
 }
+
+@media (max-width: 600px) {
+  span {
+    font-size: 0.7em !important;
+    margin-left: 20px;
+  }
+  .logo1 {
+    margin-right: 30px;
+    width: 80%;
+    border-radius: 7px;
+  }
+}

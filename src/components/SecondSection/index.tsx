@@ -13,12 +13,14 @@ export function SecondSection() {
           uma organização, por isso mantê-las seguras é caminhar rumo ao futuro.
           Entre em contato conosco para saber mais!
         </p>
-        <div>
+        <div className={style.btnDiv}>
           <Link
             to={'/contato'}
             style={{ textDecoration: 'none', color: 'white' }}
           >
-            <Button variant='contained'>Contato</Button>
+            <Button variant='contained' className={style.btn}>
+              Contato
+            </Button>
           </Link>
         </div>
       </div>

@@ -15,12 +15,14 @@ export function FirstSection() {
           Certificado de Aprovação (CA) vigente, construídos com materiais de
           alta qualidade para garantir maior proteção, conforto e estilo.
         </p>
-        <div>
+        <div className={style.btnDiv}>
           <Link
             to={'/produtos'}
             style={{ textDecoration: 'none', color: 'white' }}
           >
-            <Button variant='contained'>Produtos</Button>
+            <Button variant='contained' className={style.btn}>
+              Produtos
+            </Button>
           </Link>
         </div>
       </div>
