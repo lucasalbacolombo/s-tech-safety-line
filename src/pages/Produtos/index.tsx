@@ -36,7 +36,7 @@ export function Produtos() {
           >
             Proteção Visual
           </Typography>
-          <Grid container spacing={2} m={1} mb={10}>
+          <Grid container spacing={2} m={0.5} mb={10}>
             <Visual />
           </Grid>
         </Paper>
@@ -53,7 +53,7 @@ export function Produtos() {
           >
             Proteção Auditiva
           </Typography>
-          <Grid container spacing={2} m={1} mb={10}>
+          <Grid container spacing={2} ml={1} mb={10}>
             <Auditiva />
           </Grid>
         </Paper>
@@ -70,7 +70,7 @@ export function Produtos() {
           >
             Proteção Para as Mãos
           </Typography>
-          <Grid container spacing={2} m={1} mb={10}>
+          <Grid container spacing={2} ml={1} mb={10}>
             <Maos />
           </Grid>
         </Paper>
@@ -87,7 +87,7 @@ export function Produtos() {
           >
             Proteção Respiratória
           </Typography>
-          <Grid container spacing={2} m={1} mb={10}>
+          <Grid container spacing={2} ml={1} mb={10}>
             <Respiratoria />
           </Grid>
         </Paper>
@@ -104,7 +104,7 @@ export function Produtos() {
           >
             Impermeáveis
           </Typography>
-          <Grid container spacing={2} m={1} mb={10}>
+          <Grid container spacing={2} ml={1} mb={10}>
             <Impermeaveis />
           </Grid>
         </Paper>
