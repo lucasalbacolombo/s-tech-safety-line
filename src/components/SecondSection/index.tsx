@@ -7,7 +7,7 @@ export function SecondSection() {
   return (
     <div className={style.secondBlock}>
       <div className={style.textDiv}>
-        <h2>Contato</h2>
+        <h2 className={style.title}>Contato</h2>
         <p>
           Acreditamos que as pessoas são as verdadeiras responsáveis por formar
           uma organização, por isso mantê-las seguras é caminhar rumo ao futuro.

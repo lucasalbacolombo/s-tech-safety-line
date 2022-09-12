@@ -13,7 +13,7 @@
     p {
       text-align: justify;
     }
-    h2 {
+    .title {
       font-size: 2em;
     }
   }
@@ -28,21 +28,22 @@
 @media (max-width: 900px) {
   .secondBlock {
     flex-direction: column;
-    max-height: 65vh;
+    max-height: 80vh;
     .textDiv {
       width: 70%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      h1 {
+      .title {
         text-align: center;
+        font-size: 2rem !important;
       }
     }
     .image {
       max-width: 60%;
     }
     .btnDiv {
-      width: 90%;
+      width: 85%;
       text-align: center;
     }
     .btn {
@@ -65,7 +66,7 @@
       width: 100%;
     }
     .btn {
-      width: 60% !important;
+      width: 90% !important;
       margin-top: 30px;
     }
   }
