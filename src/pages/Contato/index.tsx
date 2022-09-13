@@ -25,13 +25,24 @@ export function Contato() {
               Entre em contato com nosso departamento de vendas pelo telefone ou
               whatsapp.
             </p>
-            <p>(11) 95610-2777</p>
+            <p>
+              <strong>(11) 95610-2777</strong>
+            </p>
           </div>
           <div className={style.contactBox}>
             <EmailIcon sx={{ fontSize: '50px' }} />
             <p>Entre em contato por e-mail</p>
             <p>
-              <a href='mailto:fabioepis@hotmai.com'>fabioepis@hotmail.com</a>
+              <strong>
+                <a href='mailto:fabio@s-techline.com.br'>
+                  fabio@s-techline.com.br
+                </a>
+              </strong>
+            </p>
+            <p>
+              <strong>
+                <a href='mailto:fabioepis@hotmai.com'>fabioepis@hotmail.com</a>
+              </strong>
             </p>
           </div>
         </div>

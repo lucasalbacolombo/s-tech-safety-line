@@ -1,5 +1,4 @@
 import { Navbar } from '../../components/Navbar';
-import { Footer } from '../../components/Footer';
 import Box from '@mui/material/Box';
 import { Grid } from '@mui/material';
 import Paper from '@mui/material/Paper';
@@ -25,7 +24,6 @@ export function ProtecaoImpermeaveis() {
           </Grid>
         </Paper>
       </Box>
-      <Footer />
     </>
   );
 }
