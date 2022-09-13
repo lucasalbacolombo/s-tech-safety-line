@@ -32,7 +32,7 @@ export function Contato() {
           <div className={style.contactBox}>
             <EmailIcon sx={{ fontSize: '50px' }} />
             <p>Entre em contato por e-mail</p>
-            <p>
+            <p className={style.link}>
               <strong>
                 <a href='mailto:fabio@s-techline.com.br'>
                   fabio@s-techline.com.br
