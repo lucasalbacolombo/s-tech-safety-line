@@ -13,7 +13,7 @@ export function Contato() {
       <div className={style.heightDiv}>
         <div className={style.main}>
           <h2 className={style.title}>Entre em contato conosco</h2>
-          <img src={ContactUs} alt='contato' className={style.image} />
+          <img src={ContactUs} alt="contato" className={style.image} />
         </div>
         <div className={style.contact}>
           <div className={style.contactBox}>
@@ -26,6 +26,9 @@ export function Contato() {
               whatsapp.
             </p>
             <p>
+              <strong>(11) 99376-7601</strong>
+            </p>
+            <p>
               <strong>(11) 95610-2777</strong>
             </p>
           </div>
@@ -34,14 +37,14 @@ export function Contato() {
             <p>Entre em contato por e-mail</p>
             <p className={style.link}>
               <strong>
-                <a href='mailto:fabio@s-techline.com.br'>
+                <a href="mailto:fabio@s-techline.com.br">
                   fabio@s-techline.com.br
                 </a>
               </strong>
             </p>
             <p>
               <strong>
-                <a href='mailto:fabioepis@hotmai.com'>fabioepis@hotmail.com</a>
+                <a href="mailto:fabioepis@hotmai.com">fabioepis@hotmail.com</a>
               </strong>
             </p>
           </div>
